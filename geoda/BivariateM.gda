@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>wards_with_attributes</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>GPKG</type>
+                <path>Bivariate_Moran.gpkg</path>
+            </datasource>
+            <layername>wards_with_attributes</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>name</var>
+                <var>gss_code</var>
+                <var>
+                    hectares
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    nonld_area
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>lb_gss_cd</var>
+                <var>borough</var>
+                <var>poly_id</var>
+                <var>ward name</var>
+                <var>avptai2015</var>
+                <var>ptal</var>
+                <var>number</var>
+                <var>
+                    density
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    total0
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    total00
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>wards_with_attributes</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>custom</weights_type>
+                        <path>wards_with_attributes.gal</path>
+                        <id_variable>NUMBER</id_variable>
+                        <symmetry>unknown</symmetry>
+                        <num_observations>625</num_observations>
+                        <min_neighbors>1</min_neighbors>
+                        <max_neighbors>12</max_neighbors>
+                        <mean_neighbors>5.888</mean_neighbors>
+                        <median_neighbors>6</median_neighbors>
+                        <non_zero_perc>0.94208</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>total0</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name>total00</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
